@@ -1,7 +1,7 @@
 # Maintainer: Gaël PORTAY <gael.portay@savoirfairelinux.com>
 
 pkgname=dosh
-pkgver=1.4
+pkgver=1.4.1
 pkgrel=1
 pkgdesc='Docker shell'
 arch=('any')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('docker')
 makedepends=('asciidoctor')
 source=("https://github.com/gportay/$pkgname/archive/$pkgver.tar.gz")
-md5sums=('dc84c3c938dca91a81d471efdc681081')
+md5sums=('936ea23cb15fa05de79403d79ff37fbe')
 
 build() {
 	cd "$srcdir/$pkgname-$pkgver"
